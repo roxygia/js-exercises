@@ -1,0 +1,14 @@
+/* [SHOPPING LIST] */
+#shop-list {
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 10px;
+  }
+  #shop-list div {
+    background: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* [DOES NOT MATTER] */
+  html, body { font-family: arial, sans-serif }
