@@ -12,7 +12,7 @@ const gridSize = 21
 //function that repeats itself at a set timeframe, game loop
 function main(currentTime) {
     if (gameOver) {
-       if (confirm('You lost! Pres ok to restart')){
+       if (confirm('You lost! Press ok to restart')){
            window.location ='./snake-game.html'
        }
        return
